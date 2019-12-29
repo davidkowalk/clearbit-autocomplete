@@ -7,7 +7,7 @@ Author: David J. Kowalk
   - autocomplete
 
 ## Importing Clearbit Autocomplete
-In order to use the clearbit-autocomplete api for python you must first download the source-code from its [GitHub repository](github.com/davidkowalk/clearbit-autocomplete).
+In order to use the clearbit-autocomplete api for python you must first download the source-code from its [GitHub repository](http://www.github.com/davidkowalk/clearbit-autocomplete).
 
 ```
 git clone git@github.com:davidkowalk/clearbit-autocomplete.git
