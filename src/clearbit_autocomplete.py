@@ -1,7 +1,7 @@
 from json import loads as parse
 from urllib.parse import quote_plus as url
 
-def autocomplete(name):
+def autocomplete(name: str):
     try:
         http_name = url(name)
         content = _load(f"https://autocomplete.clearbit.com/v1/companies/suggest?query={http_name}")
