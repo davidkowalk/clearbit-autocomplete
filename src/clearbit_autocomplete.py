@@ -4,7 +4,7 @@ from urllib.parse import quote_plus as url
 def autocomplete(name: str):
     try:
         http_name = url(name)
-        content = _load(f"https://autocomplete.clearbit.com/v1/companies/suggest?query={http_name}")
+        content = __load__(f"https://autocomplete.clearbit.com/v1/companies/suggest?query={http_name}")
         json = parse(content)
         return json
     except:
@@ -14,7 +14,7 @@ def autocomplete(name: str):
 # Http Request
 from urllib.request import urlopen as ureq
 
-def _load(url):
+def __load__(url):
     client = ureq(url)
     content = client.read()
     client.close()
