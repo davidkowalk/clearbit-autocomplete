@@ -2,6 +2,7 @@ from json import loads as parse
 from urllib.parse import quote_plus as url
 
 def autocomplete(name: str):
+    """Returns the autocompleted data for a business name. See https://clearbit.com/docs#autocomplete-api"""
     try:
         http_name = url(name)
         content = __load__(f"https://autocomplete.clearbit.com/v1/companies/suggest?query={http_name}")
