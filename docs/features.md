@@ -17,14 +17,24 @@ or via https
 git clone https://github.com/davidkowalk/clearbit-autocomplete.git
 ```
 
-You may now find the sourcecode to the api in the folder ``/src/``. Copy the file ``clearbit-autocomplete.py`` into your project source folder and import the api as follows:
+After unpacking the zip you will now find the sourcecode to the api in the folder ``/src/``. Copy the file ``clearbit-autocomplete.py`` into your project source folder and import the api as follows:
 
 ```
 import clearbit_autocomplete as clearbit
 ```
-## Function(s)
 
-Once you imported the api into your project you can use the api in your project.
+Alternatively you can also import the package via pip. Make sure to link to the folder with the file ``setup.py``:
+
+```
+pip install ~/Path/To/Package/Folder/
+```
+In Python:
+```
+import clearbit_autocomplete as clearbit
+```
+
+## Functions
+
 ### autocomplete()
 Company Autocomplete is an API that lets you auto-complete company names and retreive logo and domain information in json-format.
 
