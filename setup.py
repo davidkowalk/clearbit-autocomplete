@@ -29,7 +29,7 @@ setup(name='cbautocomplete',
     package_dir = {'':'src'},
 
     python_requires = ">=3.5",
-    install_requires=['urllib3', 'bs4'],
+    install_requires=['urllib3'],
 
     project_urls={
         'Bug Reports': 'https://github.com/davidkowalk/clearbit_autocomplete/issues',
