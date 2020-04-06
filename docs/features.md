@@ -45,8 +45,8 @@ Company Autocomplete is an API that lets you auto-complete company names and ret
 Usage:
 
 ```python
-json-data = clearbit.autocomplete("GitHub")
-print(json.dumps(json-data, indent=4))
+json_data = clearbit.autocomplete("GitHub")
+print(json.dumps(json_data, indent=4))
 ```
 
 Output:
