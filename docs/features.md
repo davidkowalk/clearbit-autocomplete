@@ -45,23 +45,38 @@ Company Autocomplete is an API that lets you auto-complete company names and ret
 Usage:
 
 ```python
-json-data = clearbit.autocomplete("segments")
-print(json-data)
+json-data = clearbit.autocomplete("GitHub")
+print(json.dumps(json-data, indent=4))
 ```
 
 Output:
 ```json
 [
-  {
-    "name": "Segment",
-    "domain": "segment.com",
-    "logo": "https://logo.clearbit.com/segment.com"
-  },
-  {
-    "name": "Segmentify",
-    "domain": "segmentify.com",
-    "logo": "https://logo.clearbit.com/segmentify.com"
-  }
+    {
+        "name": "GitHub",
+        "domain": "github.com",
+        "logo": "https://logo.clearbit.com/github.com"
+    },
+    {
+        "name": "GitHub Support",
+        "domain": "github.community",
+        "logo": "https://logo.clearbit.com/github.community"
+    },
+    {
+        "name": "GitHub",
+        "domain": "github.blog",
+        "logo": "https://logo.clearbit.com/github.blog"
+    },
+    {
+        "name": "GitHub Status",
+        "domain": "githubstatus.com",
+        "logo": "https://logo.clearbit.com/githubstatus.com"
+    },
+    {
+        "name": "GitHub",
+        "domain": "github.co.jp",
+        "logo": "https://logo.clearbit.com/github.co.jp"
+    }
 ]
 ```
 
