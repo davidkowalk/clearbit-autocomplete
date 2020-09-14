@@ -26,9 +26,11 @@ setup(name='cbautocomplete',
         'Programming Language :: Python :: 3.7',
     ],
 
-    package_dir = {'':'src'},
+    packages = ["clearbit_autocomplete"],
 
-    python_requires = ">=3.5",
+    package_dir = {'clearbit_autocomplete':'src'},
+
+    python_requires = ">=3.6",
     install_requires=['urllib3'],
 
     project_urls={

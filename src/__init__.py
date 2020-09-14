@@ -1,1 +1,1 @@
-from clearbit_autocomplete import autocomplete
+from clearbit_autocomplete.clearbit_autocomplete import autocomplete
